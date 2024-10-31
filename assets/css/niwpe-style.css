@@ -1,0 +1,189 @@
+/* CSS Document */
+.niwpe_container { width:99%; padding-top:10px; background-color:#ffffff;}
+.niwpe_container .niwpe_content {width:100%;}
+.niwpe_container .niwpe_content .niwpe_row {
+	width:100%;
+	padding-bottom:20px;
+}
+.niwpe_container .niwpe_content .niwpe_row .niwpe_columns{
+	width:100%;
+}
+.niwpe_container .niwpe_content .niwpe_row .niwpe_columns .niwpe_welcome { 
+	margin:5px;
+	height:80px;
+}
+
+/*Search form*/
+.niwpe_search_form {  
+	border:1px solid #f09300; 
+	border-bottom:4px solid #f09300; 
+	border-top:4px solid #f09300;
+	margin:5px;
+	width:80%;
+}
+.niwpe_search_title {
+	background: linear-gradient(to bottom, #eb7077, #eb7077); 
+	line-height: 40px;
+	padding-left:10px;
+	color:#FFF;
+	font-size:16px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.niwpe_search_row { padding:5px; } 
+.niwpe_field_wrapper {
+	float:left;
+	width:50%;
+	margin: 0; 
+	padding: 0; 
+	
+}
+.niwpe_field_wrapper label { 
+	display: inline-block; 
+	width: 140px; 
+	
+}
+.niwpe_field_wrapper input { 
+width:60%; 
+border: 1px solid  #CCC;
+	/*width:60%; 
+    padding: 8px 16px;
+    margin: 4px 0;
+    box-sizing: border-box;
+	border: 2px solid #ddd;*/
+}
+.niwpe_field_wrapper input[type=text]:focus , .niwpe_field_wrapper select:focus  { 
+	 border: 1px solid #A1887F;
+}
+.niwpe_field_wrapper select { 
+	width:60%; 
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 1px solid #CCC;
+}
+.niwpe_button {
+   background: linear-gradient(to bottom, #f4b400, #f09300);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	float:right;
+	cursor:pointer
+	
+}
+.niwpe_welcome_bottom{display: flex; width:100%; font-size:24px; height:auto; position:absolute; bottom:15px; }
+.niwpe_welcome_bottom_content{ width:100%; text-align:center}
+
+.niwpe_welcome_bottom_content.center{width:34%;}
+
+.niwpe_text_align_right{ text-align:right}
+
+
+
+/*Table CSS*/
+.niwpe_default_table  {
+  text-align: left;
+  line-height: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #f09300;
+  border-radius: 0.100rem;
+  width:100%;
+}
+
+.niwpe_default_table  thead tr:first-child {
+ background: linear-gradient(to bottom, #f4b400, #f09300);
+  color: #fff;
+  border: none;
+}
+
+.niwpe_default_table  th:first-child,
+.niwpe_default_table  td:first-child {
+  padding: 0 15px 0 20px;
+}
+
+.niwpe_default_table  thead tr:last-child th {
+  border-top: 5px solid #f09300;
+}
+.niwpe_default_table  thead tr:last-child th {
+  border-bottom: 3px solid #ddd;
+}
+
+.niwpe_default_table  tbody tr:hover {
+  background-color: rgba(237, 28, 64, .1);
+  cursor: default;
+}
+
+.niwpe_default_table  tbody tr:last-child td {
+  border: none;
+}
+
+.niwpe_default_table  tbody td {
+  border-bottom: 1px solid #f4b400;
+}
+
+.niwpe_default_table  td:last-child {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.niwpe_default_table  tbody tr:last-child td {
+ /* border-bottom: 5px solid #f09300;*/
+}
+
+.niwpe_default_table{
+  border-bottom: 5px solid #f09300;
+  font-size:14px;
+}
+
+/* CSS Document */
+ul.niwpe_pagination {
+    text-align:center;
+    color:#829994;
+}
+ul.niwpe_pagination li {
+    display:inline;
+    padding:0 3px;
+}
+ul.niwpe_pagination a {
+    color:#5D4037;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid #f09300;
+    text-decoration:none;
+}
+ul.niwpe_pagination a:hover, 
+ul.niwpe_pagination a.current {
+   background: linear-gradient(to bottom, #f4b400, #f09300);
+    color:#fff; 
+}
+ul.niwpe_pagination span.current {
+   background: linear-gradient(to bottom, #f4b400, #f09300);
+    color:#fff; 
+}
+ul.niwpe_pagination span {
+    color:#5D4037;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid #f09300;
+    text-decoration:none;
+}
+
+/*Alert Box*/
+
+.ni-success-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  width:95%;
+}
+.ni-success-msg {
+ 
+  background-color: #00C853;
+  color:#000;
+  font-size:14px;
+}
+/*End Alert Box*/
